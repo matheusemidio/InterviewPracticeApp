@@ -1,5 +1,5 @@
 //
-//  NewQuestionViewController.swift
+//  PracticeViewController.swift
 //  InterviewPracticeApp
 //
 //  Created by Matheus Cadena on 2022-02-16.
@@ -7,9 +7,8 @@
 
 import UIKit
 
-class NewQuestionViewController: UIViewController {
+class PracticeQuestionViewController: UIViewController {
 
-    
     //Declaration of variables
     public var typeData : String = ""
     
@@ -17,8 +16,7 @@ class NewQuestionViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        print("New Question View Controller \(typeData)")
-
+        print("Practice View Controller \(typeData)")
     }
     
 
